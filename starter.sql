@@ -1,6 +1,11 @@
-CREATE TABLE Department
+create database thangarasudb;
+use thangarasudb;
+CREATE TABLE info090
 (
-DepartmentID INT(5) PRIMARY KEY,
-DepartmentName VARCHAR(20),
+info090 INT(5)PRIMARY KEY,
+info090name VARCHAR(20),
 HOD VARCHAR(20)
 );
+desc info090;
+show tables;
+
